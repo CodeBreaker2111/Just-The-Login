@@ -92,6 +92,7 @@ fn main()
                 println!("Acount unchanged.")
             }
         }
+        var.clear()
     }
 
     if var.trim() == "4"
@@ -136,9 +137,8 @@ fn main()
             println!("2-step verification already inactive.");
             return;
         }
+        var.clear()
     }
-
-    var.clear();
 
     if var.trim() == "3"
     {
